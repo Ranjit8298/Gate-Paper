@@ -1,0 +1,75 @@
+.header_container{
+    text-align: center;
+    color: #290001;
+    font-family: 'Piedra', cursive; 
+    background:cornsilk;
+}
+.sub_head{
+    text-decoration: none;
+    color: #290001;
+}
+ .navbar{
+    border-radius: 8px;
+    border-color: 2px solid blanchedalmond;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    text-decoration-color: #335d2d;
+}
+.border_container{
+    border: 2px solid;
+    border-style: groove;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.test_container{
+    text-align: center;
+    color:#0f3057 ;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro{
+    color: #07689f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.paragrap_container{
+    font-family: sans-serif;
+    font-size: 21px;
+    padding-top: 0px;
+}
+.para_sub{
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.page-footer{
+    background: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.nav-item{
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    margin: 10px;
+}
