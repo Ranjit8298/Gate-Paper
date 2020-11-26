@@ -93,14 +93,14 @@
             font-size: 22px;
             font-weight: bold;
             font-family: 'Ubuntu', sans-serif;
-            color: #f9fcfb;
+            color: #222831;
 
         }
 
         .paragraph {
-            font-size: 15px;
+            font-size: 10px;
             font-weight: bold;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-           margin-left: 10px;
+           margin-left: 15px;
         
         }
