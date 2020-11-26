@@ -73,3 +73,35 @@
     color: gray;
     margin: 10px;
 }
+.item {
+            background-color: black;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+        }
+
+        .foun-container {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: 'Ubuntu', sans-serif;
+            color: #f9fcfb;
+
+        }
+
+        .intro {
+            color: #e8ded2;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           margin-left: 10px;
+        
+        }
