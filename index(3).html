@@ -67,6 +67,58 @@
 </head>
 
 <body>
+     <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="light-bulb.svg" width="35" height="40"
+                    class="d-inline-block align-top" class="bg-light" alt="">
+                <span style="color: #d2e603;"> Gate-Paper</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <hr>
+                <ul class="navbar-nav mr-right">
+                    <li class="nav-item active">
+                        <a  class="nav-link" href="index(1).html" target="_blank">CSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link active" href="index(5).html" target="_blank">EE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link active" href="index(4).html" target="_blank" >ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link active" href="index(2).html" target="_blank" >CE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link active" href="index(3).html" target="_blank">ECE</a>
+                    </li>
+                    <li class="nav-item">
+                        <button
+                            style="background-color: black ; border-radius: 23px;border-color: cornsilk;"><a
+                                class="nav-link active" href="mailto:aanand4175@gmail.com">Contact Us</a></button>
+                    </li>
+                </ul>
+               
+            </div>
+        </nav>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
     <div class="container">
         <h4 class="para_container"><img class="mole" src="art-and-design.svg" width="35" height="35"
                 class="d-inline-block align-top" alt="">GATE ECE Questions Paper With Solutions</h4>
